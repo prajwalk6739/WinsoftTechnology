@@ -8,10 +8,8 @@
 //        Y[] = { 1, 8, 9, 10, 15 } The vacant cells in X[] is represented by 0
 //        Output: X[] = { 1, 2, 3, 5, 6, 8, 9, 10, 15 }
 
-
-package Array;
 import java.util.*;
-    public class Main {
+    public class Question_No_1 {
         public static void merge(int[] X, int[] Y) {
             int m = X.length;
             int n = Y.length;
